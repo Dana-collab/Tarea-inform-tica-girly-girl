@@ -1,0 +1,77 @@
+body {
+    background-image: url('../images/img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    background: rgba(255, 182, 193, 0.8); /* Light Pink background */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px; /* Rounder corners */
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5); /* Hot Pink shadow */
+}
+
+h1, h2, h3, h4 {
+    color: #FF69B4; /* Hot Pink */
+    margin: 0 0 10px;
+}
+
+p {
+    color: #FFFFFF; /* White */
+    margin: 0 0 10px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0 0 10px;
+    color: #FF69B4; /* Hot Pink */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+pre, code {
+    background: rgba(255, 182, 193, 0.5); /* Light Pink background */
+    padding: 10px;
+    border-radius: 10px; /* Rounder corners */
+    color: #FF69B4; /* Hot Pink */
+    display: block;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #FF69B4; /* Hot Pink */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+
+    header, main, footer {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
